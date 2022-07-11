@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/drawable/bg_btn.xml" value="0.2965" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/drawable/bg_edit.xml" value="0.2965" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/layout-land/toolbar_back_save.xml" value="0.6270270270270271" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/layout-w1240dp/activity_trocar_senha.xml" value="0.47346938775510206" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/layout-w1240dp/toolbar_back_save.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/layout-w936dp/activity_trocar_senha.xml" value="0.271875" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/layout/activity_criar_conta.xml" value="0.3625" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/layout/activity_esqueci_senha.xml" value="0.3625" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/layout/activity_form_anuncio.xml" value="0.3625" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/layout/activity_trocar_senha.xml" value="0.3625" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/layout/toolbar_back.xml" value="0.3625" />
+        <entry key="..\:/Users/igorm/AndroidStudioProjects/CasaPorTemporada/app/src/main/res/layout/toolbar_back_save.xml" value="0.3614583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
