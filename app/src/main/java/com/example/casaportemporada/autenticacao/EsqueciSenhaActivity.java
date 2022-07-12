@@ -1,4 +1,4 @@
-package com.example.casaportemporada.activity.autenticacao;
+package com.example.casaportemporada.autenticacao;
 
 import androidx.appcompat.app.AppCompatActivity;
 

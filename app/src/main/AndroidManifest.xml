@@ -4,7 +4,7 @@
     package="com.example.casaportemporada">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -16,31 +16,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CasaPorTemporada"
         tools:targetApi="31">
+
+        <activity
+            android:name=".activity.MeusAnunciosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.FiltrarAnunciosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".autenticacao.LoginActivity"
+            android:exported="false" />
         <activity
             android:name=".activity.FormAnuncioActivity"
+            android:exported="true" />
+        <activity
+            android:name=".autenticacao.EsqueciSenhaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".autenticacao.CriarContaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity
-            android:name=".activity.autenticacao.EsqueciSenhaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.autenticacao.CriarContaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.autenticacao.LoginActivity"
-            android:exported="true">
-
-
-        </activity>
-        <activity
-            android:name=".activity.MainActivity"
-            android:exported="true" />
     </application>
 
 </manifest>
