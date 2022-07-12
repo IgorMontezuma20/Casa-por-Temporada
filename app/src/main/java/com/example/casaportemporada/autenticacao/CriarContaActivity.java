@@ -1,8 +1,7 @@
-package com.example.casaportemporada.activity.autenticacao;
+package com.example.casaportemporada.autenticacao;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,7 +11,6 @@ import android.widget.Toast;
 import com.example.casaportemporada.R;
 import com.example.casaportemporada.activity.MainActivity;
 import com.example.casaportemporada.databinding.ActivityCriarContaBinding;
-import com.example.casaportemporada.databinding.ActivityLoginBinding;
 import com.example.casaportemporada.helper.FirebaseHelper;
 import com.example.casaportemporada.model.Usuario;
 

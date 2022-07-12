@@ -1,15 +1,12 @@
-package com.example.casaportemporada.activity.autenticacao;
+package com.example.casaportemporada.autenticacao;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.casaportemporada.R;
 import com.example.casaportemporada.activity.MainActivity;
 import com.example.casaportemporada.databinding.ActivityLoginBinding;
 import com.example.casaportemporada.helper.FirebaseHelper;
@@ -76,15 +73,15 @@ public class LoginActivity extends AppCompatActivity {
 
         FirebaseHelper.getAuth().signInWithEmailAndPassword(
                 email, senha).addOnCompleteListener(task -> {
-                    if(task.isSuccessful()){
+            if(task.isSuccessful()){
 
-                        finish();
-                        startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                finish();
+                startActivity(new Intent(LoginActivity.this, MainActivity.class));
 
-                    }else{
-                        String erro = task.getException().getMessage();
-                        Toast.makeText(this, erro, Toast.LENGTH_SHORT).show();
-                    }
+            }else{
+                String erro = task.getException().getMessage();
+                Toast.makeText(this, erro, Toast.LENGTH_SHORT).show();
+            }
         });
 
     }
